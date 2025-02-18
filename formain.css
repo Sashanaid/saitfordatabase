@@ -18,17 +18,14 @@ form{
     margin-top: 10px;
     margin-bottom: 200px;
 }
-header{ 
-    margin: -8px;
-    background-color: black;
-    color: blue;}
-
 .header{
     display: grid;
-    grid-template-rows: 50px ;
-    grid-template-columns: 120px auto 120px 10px;
-    
-}
+    background-color: #181B2B;
+    grid-template-rows: 60px ;
+    grid-template-columns: 10% auto  9%;
+    margin: -8px;
+    color: blue;
+  }
 
 p{  
     color: white;
@@ -40,7 +37,9 @@ p{
 }
 
 fieldset{
-    padding: 100px;
+    width: 500px;
+    height: 500px;
+    
     background-color:#a5cfa5;
     /*color: rgb(27, 221, 221);*/
     border-color: rgb(59, 24, 24);
