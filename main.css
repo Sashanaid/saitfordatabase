@@ -1,0 +1,27 @@
+header{ 
+    margin: -8px;
+    background-color: black;
+    color: blue;}
+
+.header{
+    display: grid;
+    grid-template-rows: 50px ;
+    grid-template-columns: 120px auto 100px 140px;
+}
+#settings{
+    margin-top: 10px;
+    height: 30px;
+    width: 130px;
+}
+.maintext{
+    display: grid;
+    grid-template-rows: 50px ;
+    grid-template-columns: 20% auto 20%;
+}
+
+/*.for-ul {
+    list-style-type: none;
+    border: 1px solid red;
+    max-height: 120px;
+    overflow-y: scroll
+  }для пролистования*/

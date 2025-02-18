@@ -1,0 +1,68 @@
+/*header{ 
+    margin-top: 10px;
+    height: 60px;
+    margin: -8px;
+    background-color: black;
+    color: blue;}
+}*/
+.header{
+    display: grid;
+    background-color: #181B2B;
+    grid-template-rows: 60px ;
+    grid-template-columns: 10% auto  8%;
+    margin: -8px;
+    color: blue;
+}
+#settings{
+    margin-top: 15px;
+    height: 30px;
+    width: 130px;
+    border-radius: 10px;
+    border: solid 0;
+}
+
+.gamesblock{
+    display: grid;
+    /*flex-direction: column;*/
+    grid-template-rows: 100%;
+    grid-template-columns: 15% auto  15%;
+}
+
+.scrollable-container {
+    /*margin: 0 auto;*/
+    margin-top: 8px;
+    max-width: auto; /* Настройте ширину по своему усмотрению */
+    max-height: 100%;
+    background-color: #7587FF;
+    border-radius: 0px;
+    overflow-y: auto; /* Включаем вертикальную прокрутку */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .scrollable-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Расстояние между элементами */
+  }
+  
+  .scrollable-item {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .scrollable-item h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+  }
+  
+  .scrollable-item p {
+    margin-bottom: 0;
+    color: #555;
+  }
+
+/*#flexed{
+    
+}*/
